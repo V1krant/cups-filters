@@ -872,7 +872,7 @@ urftopdf_LDADD = \
 
 pclmtoraster_SOURCES = \
 	filter/pclmtoraster.c
-pclmtoraster_CXXFLAGS = \
+pclmtoraster_CFLAGS = \
 	-I$(srcdir)/cupsfilters/ \
 	$(CUPS_CFLAGS)
 pclmtoraster_LDADD = \
